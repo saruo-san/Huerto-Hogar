@@ -34,29 +34,20 @@ Inserte aquí capturas de pantalla reales del sistema:
 
 ### 🏠 Página de Inicio (Home)
 
-**(Inserte su imagen aquí)**
-
-    ![Home Screenshot](./images/home.png)
-
-### 🛒 Catálogo
-
-**(Inserte su imagen aquí)**
-
-    ![Catalog Screenshot](./images/catalog.png)
+   <img width="1861" height="922" alt="image" src="https://github.com/user-attachments/assets/ae2bcb1f-68a9-4229-b8e2-b866927fb436" />
 
 ### 🧪 Pruebas Unitarias
 
-**(Inserte la captura de resultados Jest/Karma aquí)**
+  <img width="975" height="429" alt="image" src="https://github.com/user-attachments/assets/4f01b5d3-1113-457c-865d-a7c6e2518f65" />
 
-    ![Unit Tests](./images/tests.png)
+  <img width="975" height="679" alt="image" src="https://github.com/user-attachments/assets/65605d9c-58c3-44d5-b392-d4b11d81dbc3" />
 
+  
 ------------------------------------------------------------------------
 
 # 📄 3. Resumen del ERS (Especificación de Requisitos del Sistema)
 
-Inserte el ERS en PDF aquí, o resuma brevemente:
-
-    [ERS_Huerto_Hogar.pdf](./docs/ERS_Huerto_Hogar.pdf)
+[ERS.Huerto.Hogar.docx](https://github.com/user-attachments/files/23733650/ERS.Huerto.Hogar.docx)
 
 ### 📘 Como referencia, incluya aquí un resumen manual:
 
