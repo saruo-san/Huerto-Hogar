@@ -22,9 +22,11 @@ Este proyecto forma parte del desarrollo fullstack realizado por:
 
   Integrante          Rol                       Institución
   ------------------- ------------------------- -------------
-  **Javier Muñoz**    Desarrollador Fullstack   DUOC UC
-  **Nicolás Osses**   Desarrollador Frontend    DUOC UC
-  **Jairo Huaman**    Desarrollador Frontend    DUOC UC
+  -**Javier Muñoz**    Desarrollador Fullstack   DUOC UC
+  
+  -**Nicolás Osses**   Desarrollador Frontend    DUOC UC
+  
+  -**Jairo Huaman**    Desarrollador Frontend    DUOC UC
 
 ------------------------------------------------------------------------
 
