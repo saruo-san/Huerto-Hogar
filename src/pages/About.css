@@ -1,0 +1,65 @@
+/* === CONTENEDOR GENERAL === */
+.about-page {
+  background: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+/* === CONTENEDORES (CAJAS) === */
+.about-box {
+  background: #ffffff;
+  padding: 30px 25px;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  border: 1px solid #e9ecef;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* === TITULOS === */
+.about-title {
+  color: #2E8B57;
+  font-weight: bold;
+}
+
+.about-subtitle {
+  color: #2E8B57;
+  font-weight: 600;
+}
+
+/* === TEXTO === */
+.about-text {
+  color: #444;
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* === LISTA === */
+.about-list li {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* === MAPA === */
+.about-map {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+  .about-text {
+    font-size: 1rem;
+  }
+
+  .about-list li {
+    font-size: 1rem;
+  }
+
+  .about-box {
+    padding: 20px 18px;
+  }
+}

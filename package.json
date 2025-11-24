@@ -1,0 +1,63 @@
+{
+  "name": "huerto-hogar2",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.12.2",
+    "bootstrap": "^5.3.8",
+    "react": "^19.2.0",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^19.2.0",
+    "react-router-bootstrap": "^0.26.3",
+    "react-router-dom": "^7.9.4",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test:jasmine": "jasmine",
+    "test:karma": "karma start",
+    "test:karma:single": "karma start --single-run",
+    "test:all": "npm run test:jasmine && npm run test:karma:single",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.28.5",
+    "@babel/preset-react": "^7.28.5",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "jasmine": "^5.12.0",
+    "karma": "^6.4.4",
+    "karma-chrome-launcher": "^3.2.0",
+    "karma-cli": "^2.0.0",
+    "karma-coverage": "^2.2.1",
+    "karma-jasmine": "^5.1.0",
+    "karma-webpack": "^5.0.1",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.102.1"
+  }
+}

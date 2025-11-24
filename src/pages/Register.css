@@ -1,0 +1,83 @@
+/* ======= CONTENEDOR PRINCIPAL ======= */
+.register-container {
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+
+  /* 🔥 Baja el cuadro del registro */
+  align-items: flex-start;
+  padding-top: 120px; /* antes era 40px */
+  padding-bottom: 30px;
+}
+
+
+/* ======= CUADRO DE FORMULARIO ======= */
+.register-box {
+  background: #ffffff;
+  padding: 2.5rem;
+  width: 450px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+.register-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #2E8B57;
+}
+
+/* ======= INPUTS ======= */
+.register-box input[type="text"],
+.register-box input[type="password"],
+.register-box input[type="email"] {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 14px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.2s ease;
+}
+
+.register-box input:focus {
+  border-color: #2E8B57;
+  outline: none;
+  box-shadow: 0 0 4px rgba(46, 139, 87, 0.3);
+}
+
+/* ======= BOTÓN ======= */
+.register-btn {
+  width: 100%;
+  background-color: #2E8B57;
+  color: #fff;
+  padding: 10px 0;
+  margin-top: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.register-btn:hover {
+  background-color: #276b46;
+}
+
+/* ======= ENLACE LOGIN ======= */
+.register-login-text {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.register-login-text a {
+  color: #2E8B57;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.register-login-text a:hover {
+  text-decoration: underline;
+}

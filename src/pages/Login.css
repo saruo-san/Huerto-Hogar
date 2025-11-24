@@ -1,0 +1,115 @@
+/* === CONTENEDOR PRINCIPAL === */
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+
+  /* 🔥 Centra más abajo */
+  align-items: flex-start;
+  padding: 120px 20px; /* antes era 60px */
+
+  gap: 50px;
+  min-height: 80vh;
+  background-color: #ffffff;
+}
+
+
+/* === CAJA DE LOGIN === */
+.login-box {
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  width: 380px;
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2E8B57;
+  font-weight: bold;
+}
+
+/* === FORMULARIO === */
+#login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#login-form label {
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+#login-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* === BOTÓN LOGIN === */
+.login-btn {
+  background-color: #2E8B57;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #267a4c;
+}
+
+/* === CAJA DERECHA (REGISTRO) === */
+.login-side-box {
+  max-width: 380px;
+  padding: 35px;
+  background: #f7fdf9;
+  border-radius: 12px;
+  border: 1px solid #e3f3e7;
+}
+
+.login-side-box h2 {
+  color: #2E8B57;
+  margin-bottom: 15px;
+}
+
+.login-side-box p {
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* Botón registrar */
+.side-register-btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #2E8B57;
+  color: white !important;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.side-register-btn:hover {
+  background-color: #267a4c;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 900px) {
+  .login-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .login-side-box {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 380px;
+  }
+}
