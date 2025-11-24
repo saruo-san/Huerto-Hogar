@@ -49,17 +49,6 @@ Inserte aquí capturas de pantalla reales del sistema:
 
 [ERS.Huerto.Hogar.docx](https://github.com/user-attachments/files/23733650/ERS.Huerto.Hogar.docx)
 
-### 📘 Como referencia, incluya aquí un resumen manual:
-
--   Objetivo general del sistema\
--   Requisitos funcionales principales\
--   Requisitos no funcionales\
--   Casos de uso\
--   Descripción general de usuarios\
--   Arquitectura esperada
-
-*(Puedes copiar/pegar desde tu documento ERS cargado.)*
-
 ------------------------------------------------------------------------
 
 # 🧱 4. Arquitectura del Proyecto
