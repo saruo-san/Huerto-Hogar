@@ -32,7 +32,6 @@ Este proyecto forma parte del desarrollo fullstack realizado por:
 
 # 📌 2. Evidencias del Proyecto
 
-Inserte aquí capturas de pantalla reales del sistema:
 
 ### 🏠 Página de Inicio (Home)
 
