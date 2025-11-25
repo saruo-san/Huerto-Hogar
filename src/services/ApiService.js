@@ -1,6 +1,6 @@
 // src/services/ApiService.js
 class ApiService {
-    static BASE_URL = "http://localhost:8080/api";
+    static BASE_URL = "/api";
 
     static async getProducts() {
         const response = await fetch(`${this.BASE_URL}/products`);
