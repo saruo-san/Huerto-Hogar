@@ -1,0 +1,40 @@
+.header {
+  background-color: #000000ff !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.header.scrolled {
+  background-color: rgba(0, 0, 0, 0.95) !important;
+  backdrop-filter: blur(10px);
+}
+
+.logo-img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #2E8B57 !important;
+}
+
+.nav-link {
+  color: #ffffffff !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #ffffffff !important;
+}
+
+.btn-success {
+  background-color: #2E8B57 !important;
+  border-color: #569671ff !important;
+  margin-left: 10px; /* Aumenta el espacio entre los botones */
+}
+
+.btn-success:hover {
+  background-color: #26ac31 !important;
+  border-color: #26ac31 !important;
+}

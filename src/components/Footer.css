@@ -1,0 +1,23 @@
+.footer {
+  background-color: #000000ff;
+  padding: 40px 0 20px;
+  margin-top: auto;
+  border-top: 1px solid #e9ecef;
+}
+
+.contacto h3 {
+  color: #2E8B57;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.contacto p {
+  margin-bottom: 5px;
+  color: #ffffffff;
+}
+
+.copyright p {
+  color: #ffffffff;
+  margin: 0;
+  font-size: 0.9rem;
+}
